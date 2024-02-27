@@ -1,0 +1,76 @@
+\documentclass{article}
+
+\input{preamble}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+    \textbf{\LARGE Namkhang Le} \\
+    dsoman24@gmail.com $|$ (470) 553-5299 $|$ Atlanta, GA \\
+    \href{https://namkhangnle.github.io/Website/}{github.com/namkhangnle} $|$ \href{https://www.linkedin.com/in/namkhangnle/}{www.linkedin.com/in/namkhangnle}
+\end{center}
+
+\begin{flushleft}
+
+\sectitle{Education}
+
+\school{Georgia Institute of Technology}{August 2021 -- May 2025}
+{\textbf{\textit{B.S. Computer Science, concentrations in Intelligence (AI/ML) and Information Internetworks}} \hfill 3.0/4.0 GPA \\ \textit{Relevant Coursework}: Data Structures \& Algorithms, Machine Learning, Design \& Analysis of Algorithms, Computer Organization \& Programming, Probability \& Statistics, Combinatorics, Linear Algebra, Automata \& Complexity*, Number Theory* (\textit{* = current})}
+
+\sectitle{Experience}
+
+    \begin{experience}{Georgia Tech Efficient and Intelligent Computing Lab}{Atlanta, GA}{Undergraduate Research Assistant}{January 2024 -- Present}
+        \item Develop a PyTorch toolkit to train distributed Graph Neural Networks (GNNs) for applications with multiple disjoint large graph datasets, such as electronic design automation analysis.
+        \item Build a user-friendly modular data loading and transfer API and implement the GraphSAGE GNN forward propagation and graph vertex embedding algorithm to improve model accuracies by an average of 15\%.
+    \end{experience}
+
+    \begin{experience}{Google}{Sunnyvale, CA}{Software Engineering (STEP) Intern}{May -- August 2023}
+        \item Implemented and tested an efficient parallel-processing data pipeline being used in production to train machine learning models that predict Google Workspace account upgrade, downgrade, and churn behaviors.
+        \item Built pipeline using FlumeJava, a Java MapReduce framework, to extract and aggregate 70+ web domain level ML features from a database containing the HTML of more than 500 billion web pages, increasing customer coverage in the feature store by 20\%.
+        \item Designed and implemented a scalable and extensible data aggregation architecture by applying advanced OOP design patterns that reduced feature implementation time by over 50\% and provided an intuitive interface for future feature store contributions.
+        \item Refactored pipeline to improve reliability by developing a system to flush intermediate output to disk across 100k+ threads during a full table scan, preventing data loss by storing more than 7 days of data progress during each pipeline execution.
+    \end{experience}
+
+    \begin{experience}{Georgia Tech Financial Services and Innovation Lab}{Atlanta, GA}{Undergraduate Research Assistant (Team Lead)}{January -- May 2023}
+        \item Led a team of 4 researchers in performing sentiment analysis on earnings calls transcripts on 12 electric vehicle companies using the large language model FinBERT and natural language processing library NLTK.
+        \item Developed a custom web scraper using Beautiful Soup to extract over 70 earnings call transcripts from The Motley Fool.
+        \item Created dynamic visualizations from analyzed text data to conclude that 5 major US government policies drove spikes in positive sentiment in earning calls from companies that focus on electric vehicle production.
+    \end{experience}
+
+    \begin{experience}{Georgia Tech College of Computing}{Atlanta, GA}{Undergraduate Teaching Assistant (Homework Lead)}{August 2022 -- Present}
+        \item Manage a team of 40 TAs in the development and grading of 12 homework assignments per semester for over 800 students as TA Homework Lead for CS 1331: Intro to Object-Oriented Programming under Prof.~Richard Landry and Dr.~Aibek Musaev.
+        \item Lead weekly recitations for 50 students and help students with problem-solving and debugging during one-on-one office hours.
+        \item Grade 4 exams per semester and write auto-grader unit tests for assignments using the Java Reflections library.
+    \end{experience}
+
+\sectitle{Projects}
+
+    \vspace{3pt}
+
+    \begin{project}{Georgia Tech Computer Science Capstone Project}{https://github.com/NamkhangNLe/hemodynamics-calculator}{JavaScript, ReactJS, MongoDB, ExpressJS, NodeJS}{August 2023 -- Present}
+        \item Develop the Hemodynamics Calculator, a full-stack application for the Emory University School of Medicine, to be used by 10 clinicians to reduce measurement error daily, impacting over 1,000 patients.
+        \item Leverage ReactJS, Express, and MongoDB to develop user-friendly interactive visualizations of trends in patient data.
+    \end{project}
+
+    \begin{project}{Machine Learning Soccer Prediction}{https://dsoman24.github.io/ml-project/}{Python, sklearn, PyTorch, NumPy, Matplotlib, Seaborn}{August -- December 2023}
+        \item Worked on a team of 5 to build and train logistic regression, random forest, and artificial neural network models using Scikit-Learn and PyTorch to predict soccer match outcomes with 70\% accuracy, beating benchmark betting odds data by 8\%.
+        \item Developed feature engineering strategies, performed dimensionality reduction, and conducted hyperparameter tuning to reduce overfitting, improving model accuracy by $\sim$10\%.
+    \end{project}
+
+    \begin{project}{Minesweeper Probabilistic Solver}{https://github.com/dsoman24/minesweeper}{Java, JavaFX, Python, Pandas, Jupyter Notebook}{December 2022 -- July 2023}
+        \item Built a probabilistic algorithm in Java to solve Minesweeper games with 96\%, 80\%, and 30\% win rates for easy, medium, and hard difficulties, significantly higher than the approximate 46\%, 22\%, and 13\% respective human win rates.
+        \item Built row reduction and tree-traversal algorithms to reduce game state matrix dimensionality, lowering solution time by over 30\%.
+    \end{project}
+
+\sectitle{Skills}
+
+    \vspace{3pt}
+    \skill{Technologies}{Java (JUnit, Android Studio), Python (Pandas, NumPy, sklearn, PyTorch, Flask), JavaScript (React, Express), SQL, C} \\
+    \skill{Languages}{Fluent in Spanish, Swedish, English} \\
+    \skill{Affiliations}{Delta Chi Fraternity (Secretary, Professional Development Chair), Society of Hispanic Professional Engineers}
+
+\end{flushleft}
+
+\end{document}
